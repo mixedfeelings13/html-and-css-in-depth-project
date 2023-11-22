@@ -1,0 +1,214 @@
+body {
+  font-family: 'alata', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.logo {
+  max-width: 170px;
+  height: auto;
+}
+
+nav {
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d0604c;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+  font-weight: 300; /* Very fine font weight */
+  font-size: 1.2em; /* Adjust the font size as needed */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-family: 'Alata', sans-serif;
+}
+
+nav a:hover {
+  color: black; /* Orange color on hover */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+section {
+  padding: 3em;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 2em;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.billboard {
+  position: relative;
+  text-align: center;
+}
+
+.billboard img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.billboard-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.billboard-content h1 {
+  font-size: 3em; 
+  margin-bottom: 20px;
+}
+
+.billboard-content p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.billboard-content .button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #d0604c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.billboard-content .button:hover {
+  background-color: #333;
+}
+
+#about {
+  text-align: justify;
+  padding: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+}
+
+#about .hair-day-logo-about {
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  margin-right: 40px;
+  padding: 20px;
+}
+
+#about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#about p {
+  font-size: 1.5em;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#services {
+  padding: 3em;
+  margin: 20px 0;
+  background-color: #d0604c;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+#services p {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#services ul li {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: calc(50% - 20px);
+  display: inline-block;
+  margin-right: 20px;
+  background-color: white;
+}
+#services ul li:nth-child(2n) {
+  margin-right: 0;
+}
+
+#services ul li strong,
+#services ul li p,
+#services ul li ul li {
+  color: #333;
+}
+
+.material-icons {
+  font-size: 1.5em;
+  display: flex;
+}
+
+#contact {
+  background-color: black;
+  color: #fff;
+  padding: 3em;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
