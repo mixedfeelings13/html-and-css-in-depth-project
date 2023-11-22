@@ -10,7 +10,6 @@ This project is a website for Hair Day Salon for the Coursera Meta Front End Dev
 ## Table of Contents
 
 - [About](#about)
-- [Services](#services)
 - [Contact](#contact)
 - [License](#license)
 
