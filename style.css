@@ -213,3 +213,9 @@ footer {
   margin-bottom: 30px;
 }
 
+.promotion-banner {
+  background-color: #ff8c00; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center;
+}
