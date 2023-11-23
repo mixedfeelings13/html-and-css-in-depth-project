@@ -27,14 +27,14 @@ nav a {
   font-weight: bold;
   font-size: 1.2em;
   transition: color 0.3s ease-in-out;
-  font-weight: 300; /* Very fine font weight */
-  font-size: 1.2em; /* Adjust the font size as needed */
-  text-transform: uppercase; /* Convert text to uppercase */
+  font-weight: 300;
+  font-size: 1.2em;
+  text-transform: uppercase;
   font-family: 'Alata', sans-serif;
 }
 
 nav a:hover {
-  color: black; /* Orange color on hover */
+  color: black;
 }
 
 nav ul {
@@ -212,3 +212,4 @@ footer {
   line-height: 1.6;
   margin-bottom: 30px;
 }
+
